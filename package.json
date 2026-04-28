@@ -1,0 +1,15 @@
+{
+  "name": "aidsync",
+  "version": "1.0.0",
+  "description": "AI-powered humanitarian collaboration platform",
+  "scripts": {
+    "dev": "concurrently \"cd backend && python start.py\" \"cd frontend && npm run dev\"",
+    "build": "cd frontend && npm run build",
+    "install-all": "cd backend && pip install -r requirements.txt && cd ../frontend && npm install"
+  },
+  "keywords": ["ngo", "humanitarian", "ai", "collaboration"],
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

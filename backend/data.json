@@ -1,0 +1,279 @@
+{
+  "ngos": [
+    {
+      "id": "ngo1",
+      "name": "Bharat Relief Network",
+      "city": "Mumbai",
+      "verified": true,
+      "categories": [
+        "disaster relief",
+        "medical"
+      ],
+      "contact": "contact@bharatrelief.org"
+    },
+    {
+      "id": "ngo2",
+      "name": "Seva Foundation",
+      "city": "Pune",
+      "verified": true,
+      "categories": [
+        "food",
+        "education"
+      ],
+      "contact": "info@sevafoundation.org"
+    },
+    {
+      "id": "ngo3",
+      "name": "Green Earth India",
+      "city": "Bangalore",
+      "verified": true,
+      "categories": [
+        "environment",
+        "education"
+      ],
+      "contact": "hello@greenearthindia.org"
+    },
+    {
+      "id": "ngo4",
+      "name": "Aarogya Health NGO",
+      "city": "Delhi",
+      "verified": true,
+      "categories": [
+        "medical",
+        "blood donation"
+      ],
+      "contact": "support@aarogya.org"
+    }
+  ],
+  "users": [
+    {
+      "id": "u1",
+      "ngo_id": "ngo1",
+      "role": "ngo_admin",
+      "name": "Priya Sharma",
+      "email": "priya@bharatrelief.org",
+      "password": "demo123"
+    },
+    {
+      "id": "u2",
+      "ngo_id": "ngo2",
+      "role": "ngo_admin",
+      "name": "Rahul Desai",
+      "email": "rahul@sevafoundation.org",
+      "password": "demo123"
+    },
+    {
+      "id": "u3",
+      "ngo_id": "ngo1",
+      "role": "volunteer",
+      "name": "Ankit Verma",
+      "email": "ankit@volunteer.com",
+      "password": "demo123"
+    },
+    {
+      "id": "u4",
+      "ngo_id": "ngo3",
+      "role": "volunteer",
+      "name": "Sneha Patil",
+      "email": "sneha@volunteer.com",
+      "password": "demo123"
+    },
+    {
+      "id": "u5",
+      "ngo_id": "ngo4",
+      "role": "ngo_admin",
+      "name": "Dr. Arun Kumar",
+      "email": "arun@aarogya.org",
+      "password": "demo123"
+    }
+  ],
+  "missions": [
+    {
+      "id": "m1",
+      "ngo_id": "ngo1",
+      "ngo_name": "Bharat Relief Network",
+      "title": "Medical Supply Route Mumbai",
+      "description": "Coordination with BMC and local health units to distribute medical supplies in flood-affected areas of Dharavi.",
+      "category": "medical",
+      "date": "2026-05-02",
+      "start_time": "08:00",
+      "end_time": "18:00",
+      "location": "Dharavi, Mumbai",
+      "slots": 20,
+      "slots_filled": 13,
+      "urgency": "high",
+      "help_needed": true,
+      "status": "active"
+    },
+    {
+      "id": "m2",
+      "ngo_id": "ngo2",
+      "ngo_name": "Seva Foundation",
+      "title": "Weekend Food Drive - Hadapsar",
+      "description": "Distributing cooked meals and dry ration kits to 500+ families in Hadapsar slum areas.",
+      "category": "food",
+      "date": "2026-05-03",
+      "start_time": "09:00",
+      "end_time": "14:00",
+      "location": "Hadapsar, Pune",
+      "slots": 15,
+      "slots_filled": 8,
+      "urgency": "medium",
+      "help_needed": true,
+      "status": "active"
+    },
+    {
+      "id": "m3",
+      "ngo_id": "ngo3",
+      "ngo_name": "Green Earth India",
+      "title": "Tree Plantation Drive - Cubbon Park",
+      "description": "Planting 500 saplings in and around Cubbon Park with local school students.",
+      "category": "environment",
+      "date": "2026-05-10",
+      "start_time": "07:00",
+      "end_time": "12:00",
+      "location": "Cubbon Park, Bangalore",
+      "slots": 30,
+      "slots_filled": 22,
+      "urgency": "low",
+      "help_needed": false,
+      "status": "active"
+    },
+    {
+      "id": "m4",
+      "ngo_id": "ngo4",
+      "ngo_name": "Aarogya Health NGO",
+      "title": "Blood Donation Camp - Connaught Place",
+      "description": "Emergency blood donation camp targeting O- and AB+ donors for Delhi hospital shortage.",
+      "category": "blood donation",
+      "date": "2026-04-30",
+      "start_time": "10:00",
+      "end_time": "17:00",
+      "location": "Connaught Place, Delhi",
+      "slots": 50,
+      "slots_filled": 31,
+      "urgency": "high",
+      "help_needed": true,
+      "status": "active"
+    },
+    {
+      "id": "m5",
+      "ngo_id": "ngo1",
+      "ngo_name": "Bharat Relief Network",
+      "title": "Flood Relief - Kolhapur District",
+      "description": "Deploying relief teams with food, water, and temporary shelter materials to flood-hit villages.",
+      "category": "disaster relief",
+      "date": "2026-05-01",
+      "start_time": "06:00",
+      "end_time": "20:00",
+      "location": "Kolhapur, Maharashtra",
+      "slots": 40,
+      "slots_filled": 40,
+      "urgency": "high",
+      "help_needed": false,
+      "status": "filled"
+    },
+    {
+      "id": "ma3f516",
+      "slots_filled": 0,
+      "status": "active",
+      "title": "Cleaning Work",
+      "description": "Cleaning work",
+      "category": "environment",
+      "date": "2026-04-28",
+      "start_time": "08:46",
+      "end_time": "09:46",
+      "location": "Swargate, Pune",
+      "slots": 20,
+      "urgency": "low",
+      "help_needed": true,
+      "ngo_id": "ngo2",
+      "ngo_name": "Seva Foundation"
+    }
+  ],
+  "mission_partners": [
+    {
+      "id": "mp541644",
+      "mission_id": "ma3f516",
+      "ngo_id": "ngo1"
+    }
+  ],
+  "joins": [
+    {
+      "id": "j1",
+      "mission_id": "m1",
+      "user_id": "u3",
+      "status": "confirmed"
+    },
+    {
+      "id": "j2",
+      "mission_id": "m2",
+      "user_id": "u4",
+      "status": "confirmed"
+    }
+  ],
+  "chats": [
+    {
+      "id": "c1",
+      "room_id": "m1",
+      "sender_id": "u1",
+      "sender_name": "Priya Sharma",
+      "message": "We need 5 more volunteers with medical background for the Mumbai route.",
+      "timestamp": "2026-04-28T10:30:00Z"
+    },
+    {
+      "id": "c2",
+      "room_id": "m1",
+      "sender_id": "u2",
+      "sender_name": "Rahul Desai",
+      "message": "Seva Foundation can send 3 trained first-aid volunteers. Confirming by EOD.",
+      "timestamp": "2026-04-28T11:15:00Z"
+    },
+    {
+      "id": "c3",
+      "room_id": "m2",
+      "sender_id": "u2",
+      "sender_name": "Rahul Desai",
+      "message": "Food packets are ready. Need transport volunteers from Kothrud side.",
+      "timestamp": "2026-04-28T09:00:00Z"
+    },
+    {
+      "id": "ca57fc1",
+      "timestamp": "2026-04-28T16:18:38.871611Z",
+      "room_id": "m1",
+      "sender_id": "u3",
+      "sender_name": "Ankit Verma",
+      "message": "hi"
+    }
+  ],
+  "analytics": {
+    "ngo1": {
+      "missions_created": 12,
+      "missions_completed": 9,
+      "volunteers_mobilized": 234,
+      "partner_ngos_helped": 4,
+      "hours_contributed": 1820
+    },
+    "ngo2": {
+      "missions_created": 8,
+      "missions_completed": 7,
+      "volunteers_mobilized": 156,
+      "partner_ngos_helped": 2,
+      "hours_contributed": 940
+    },
+    "ngo3": {
+      "missions_created": 5,
+      "missions_completed": 4,
+      "volunteers_mobilized": 98,
+      "partner_ngos_helped": 1,
+      "hours_contributed": 560
+    },
+    "ngo4": {
+      "missions_created": 10,
+      "missions_completed": 8,
+      "volunteers_mobilized": 312,
+      "partner_ngos_helped": 3,
+      "hours_contributed": 2100
+    }
+  }
+}
